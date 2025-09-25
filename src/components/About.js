@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
 
 class About extends Component {
   render() {
@@ -23,26 +19,13 @@ class About extends Component {
           </h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
-              <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
-                  <img
-                    height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                </span>
+              <div className="polaroid" style={{ textAlign: "center" }}>
+                <img
+                  height="250px"
+                  src={profilepic}
+                  alt="Profile"
+                  style={{ display: "block", margin: "0 auto" }}
+                />
               </div>
             </div>
 
@@ -74,13 +57,14 @@ class About extends Component {
                       height: "auto",
                       fontSize: "132%",
                       lineHeight: "200%",
+                      whiteSpace: "pre-line",
                     }}
                   >
                     <br />
                     <span className="wave">{hello} :) </span>
                     <br />
                     <br />
-                    {about}
+                    <div dangerouslySetInnerHTML={{ __html: about }} />
                   </div>
                 </div>
               </div>
