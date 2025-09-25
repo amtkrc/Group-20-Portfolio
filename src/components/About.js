@@ -14,7 +14,15 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
+          <h1 style={{ 
+            color: "#2c3e50",
+            fontWeight: "700",
+            textAlign: "center",
+            marginBottom: "40px",
+            fontSize: "3rem",
+            letterSpacing: "2px",
+            textShadow: "2px 2px 4px rgba(0,0,0,0.1)"
+          }}>
             <span>{sectionName}</span>
           </h1>
           <div className="row center mx-auto mb-5">
@@ -38,7 +46,7 @@ class About extends Component {
                 />
                 <div style={{ marginTop: "30px", textAlign: "center", display: "flex", justifyContent: "center", gap: "20px" }}>
                   <a 
-                    href="https://github.com/furkanmuratkar" 
+                    href="https://github.com/fmkara25" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     style={{ 
@@ -123,7 +131,221 @@ class About extends Component {
             </div>
           </div>
 
-        
+          {/* Ömer'in Bilgileri */}
+          <div className="row center mx-auto mb-5">
+            <div className="col-md-4 mb-5 center">
+              <div className="polaroid" style={{ textAlign: "center" }}>
+                <img
+                  height="400px"
+                  width="400px"
+                  src="images/omer.jpg"
+                  alt="Ömer Profile"
+                  style={{ 
+                    display: "block", 
+                    margin: "40px auto 0 auto",
+                    border: "10px solid #fff",
+                    borderRadius: "20px",
+                    boxShadow: "0 12px 40px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,255,255,0.1)",
+                    objectFit: "cover",
+                    backgroundColor: "#fff",
+                    maxWidth: "100%"
+                  }}
+                />
+                <div style={{ marginTop: "30px", textAlign: "center", display: "flex", justifyContent: "center", gap: "20px" }}>
+                  <a 
+                    href="https://github.com/alfredrose" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ 
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      width: "50px",
+                      height: "50px",
+                      backgroundColor: "#333", 
+                      color: "white", 
+                      textDecoration: "none", 
+                      borderRadius: "50%",
+                      fontSize: "24px",
+                      transition: "all 0.3s ease"
+                    }}
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                  <a 
+                    href="http://www.linkedin.com/in/%C3%B6mer-sen-035737382" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ 
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      width: "50px",
+                      height: "50px",
+                      backgroundColor: "#0077b5", 
+                      color: "white", 
+                      textDecoration: "none", 
+                      borderRadius: "50%",
+                      fontSize: "24px",
+                      transition: "all 0.3s ease"
+                    }}
+                  >
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-8 center">
+              <div className="col-md-10">
+                <div className="card">
+                  <div className="card-header">
+                    <span
+                      className="iconify"
+                      data-icon="emojione:red-circle"
+                      data-inline="false"
+                    ></span>{" "}
+                    &nbsp;{" "}
+                    <span
+                      className="iconify"
+                      data-icon="twemoji:yellow-circle"
+                      data-inline="false"
+                    ></span>{" "}
+                    &nbsp;{" "}
+                    <span
+                      className="iconify"
+                      data-icon="twemoji:green-circle"
+                      data-inline="false"
+                    ></span>
+                  </div>
+                  <div
+                    className="card-body font-trebuchet text-justify ml-3 mr-3"
+                    style={{
+                      height: "auto",
+                      fontSize: "132%",
+                      lineHeight: "200%",
+                      whiteSpace: "pre-line",
+                    }}
+                  >
+                    <br />
+                    <span className="wave">Hei :) </span>
+                    <br />
+                    <br />
+                    <div dangerouslySetInnerHTML={{ __html: "<span style=\"font-size: 2em; font-weight: bold;\">Ömer Sen</span>\n<span style=\"font-size: 1.5em; font-weight: bold;\">Rolle:</span> Frontend-utvikler\n<span style=\"font-size: 1.5em; font-weight: bold;\">Ferdigheter:</span> Figma, UX, UI, HTML, CSS, C#, .NET, Python, MariaDB, MySQL, Docker, AWS\nMitt navn er Ömer Sen, og jeg studerer IT ved Universitetet i Agder. Gjennom studiet har jeg opparbeidet meg erfaring innen frontend- og backendutvikling, databaser og sikkerhet. Jeg er spesielt interessert i hvordan teknologi kan brukes til å utvikle brukervennlige og sikre løsninger.\nJeg har bred erfaring fra gruppearbeid og prosjektarbeid, og trives med å samarbeide for å finne gode og kreative løsninger. For tiden deltar jeg i utviklingen av et webprosjekt i .NET, noe som gir meg praktisk erfaring med både programmering og utviklingsprosesser.\nJeg er motivert av nye utfordringer og ser på bacheloroppgaven som en mulighet til å kombinere faglig kunnskap med praktiske problemstillinger i samarbeid med en bedrift." }} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="row center mx-auto mb-5">
+            <div className="col-md-4 mb-5 center">
+              <div className="polaroid" style={{ textAlign: "center" }}>
+                <img
+                  height="400px"
+                  width="400px"
+                  src="images/ahmet.jpg"
+                  alt="Ahmet Profile"
+                  style={{ 
+                    display: "block", 
+                    margin: "40px auto 0 auto",
+                    border: "10px solid #fff",
+                    borderRadius: "20px",
+                    boxShadow: "0 12px 40px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,255,255,0.1)",
+                    objectFit: "cover",
+                    backgroundColor: "#fff",
+                    maxWidth: "100%"
+                  }}
+                />
+                <div style={{ marginTop: "30px", textAlign: "center", display: "flex", justifyContent: "center", gap: "20px" }}>
+                  <a 
+                    href="https://github.com/amtkrc" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ 
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      width: "50px",
+                      height: "50px",
+                      backgroundColor: "#333", 
+                      color: "white", 
+                      textDecoration: "none", 
+                      borderRadius: "50%",
+                      fontSize: "24px",
+                      transition: "all 0.3s ease"
+                    }}
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                  <a 
+                    href="https://www.linkedin.com/in/ahmet-kirac-344b4a196/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ 
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      width: "50px",
+                      height: "50px",
+                      backgroundColor: "#0077b5", 
+                      color: "white", 
+                      textDecoration: "none", 
+                      borderRadius: "50%",
+                      fontSize: "24px",
+                      transition: "all 0.3s ease"
+                    }}
+                  >
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-8 center">
+              <div className="col-md-10">
+                <div className="card">
+                  <div className="card-header">
+                    <span
+                      className="iconify"
+                      data-icon="emojione:red-circle"
+                      data-inline="false"
+                    ></span>{" "}
+                    &nbsp;{" "}
+                    <span
+                      className="iconify"
+                      data-icon="twemoji:yellow-circle"
+                      data-inline="false"
+                    ></span>{" "}
+                    &nbsp;{" "}
+                    <span
+                      className="iconify"
+                      data-icon="twemoji:green-circle"
+                      data-inline="false"
+                    ></span>
+                  </div>
+                  <div
+                    className="card-body font-trebuchet text-justify ml-3 mr-3"
+                    style={{
+                      height: "auto",
+                      fontSize: "132%",
+                      lineHeight: "200%",
+                      whiteSpace: "pre-line",
+                    }}
+                  >
+                    <br />
+                    <span className="wave">Hei :) </span>
+                    <br />
+                    <br />
+                    <div dangerouslySetInnerHTML={{ __html: "<span style=\"font-size: 2em; font-weight: bold;\">Ahmet Kirac</span>\n<span style=\"font-size: 1.5em; font-weight: bold;\">Rolle:</span> Backend\n<span style=\"font-size: 1.5em; font-weight: bold;\">Praksis:</span> Sikri\n<span style=\"font-size: 1.5em; font-weight: bold;\">Ferdigheter:</span> Full Stack Developer (Figma, React js, React Native CLI, Dotnet ( Wep API, MVC), Azure, AWS)\n\nMitt navn er Ahmet Kirac, tredjeårsstudent i IT og informasjonssystemer. Jeg har jobbet i flere prosjektgrupper og bygger for tiden mitt eget tverrplattform-prosjekt, Granni, for både mobil og web. I praksis hos Sikri har jeg spesielt fokus på backend-utvikling: .NET Web API/MVC, integrasjoner og skalerbare løsninger i Azure og AWS. Samtidig er jeg komfortabel i hele stacken – fra prototyping i Figma til frontend i React/React Native og produksjonssetting i skyen. Målet mitt er å skape robuste, brukersentrerte tjenester – og jeg gleder meg til å bidra med energi, nysgjerrighet og solide leveranser." }} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Hatice'nin Bilgileri */}
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid" style={{ textAlign: "center" }}>
