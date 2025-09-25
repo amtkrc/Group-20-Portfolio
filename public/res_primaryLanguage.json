@@ -1,6 +1,6 @@
 {
    "basic_info": {
-  "description_header": "Hei :)",
+  "description_header": "Hei",
   "description": "Hatice Kirac\nRolle: UX Designer\nPraksis: Moment Analyse\nFerdigheter: Figma, UX, UI, HTML, CSS, C#, React Native, .NET, Docker, Pyton, MariaDB, MySQL, AWS,\nMitt navn er Hatice, og jeg kommer fra Tyrkia. Som IT-student har jeg opparbeidet meg verdifull erfaring og innsikt innen flere områder av informatikk. Jeg har særlig interesse for både frontend- og backendutvikling, samt sikkerhet som et viktig og spennende felt innen programvareutvikling.\nGjennom studiet har jeg opparbeidet solid erfaring med samarbeid i grupper, og jeg trives godt med å arbeide sammen med andre for å finne gode løsninger. Jeg er motivert av nye utfordringer og ser alltid etter muligheter for både personlig og faglig utvikling. For tiden deltar jeg i utviklingen av en egen app sammen med en medstudent, noe som gir meg praktisk erfaring og dypere forståelse av utviklingsprosesser.\nPå fritiden liker jeg å bruke tid på strikking, pilates og sosiale aktiviteter med venner og familie.",
   "section_name": {
     "about": "About me",
@@ -17,8 +17,10 @@
         "skills": "Skills",
         "experience": "Experience"
       }
-      }
+    }
 },
+    "projects": [
+      {
         "title": "Animal Shelter",
         "startDate": "2020",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
