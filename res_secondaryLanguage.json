@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "<span style=\"font-size: 2em; font-weight: bold;\">Hatice Kirac</span>\n<span style=\"font-size: 1.5em; font-weight: bold;\">Role:</span> UX Designer\n<span style=\"font-size: 1.5em; font-weight: bold;\">Internship:</span> Moment Analyse\n<span style=\"font-size: 1.5em; font-weight: bold;\">Skills:</span> Figma, UX, UI, HTML, CSS, C#, React Native, .NET, Docker, Python, MariaDB, MySQL\n\nMy name is Hatice, and I come from Turkey. As an IT student, I have gained valuable experience and insight in various areas of computer science. I have a particular interest in both frontend and backend development, as well as security, which I find to be an important and exciting field in software development.\n\nThroughout my studies, I have built solid experience working in teams, and I thrive when collaborating with others to find good solutions. I am motivated by new challenges and always look for opportunities for both personal and professional development. Currently, I am participating in developing my own app together with a fellow student, which gives me practical experience and deeper understanding of development processes.\n\nIn my free time, I enjoy knitting, pilates, and social activities with friends and family.",
+      "description": "<span style=\"font-size: 2em; font-weight: bold;\">Hatice Kirac</span>\n<span style=\"font-size: 1.5em; font-weight: bold;\">Role:</span> UX Designer\n<span style=\"font-size: 1.5em; font-weight: bold;\">Internship:</span> Moment Analyse\n<span style=\"font-size: 1.5em; font-weight: bold;\">Skills:</span> Figma, UX, UI, HTML, CSS, C#, React Native, .NET, Docker, Python, MariaDB, MySQL\nMy name is Hatice, and I come from Turkey. As an IT student, I have gained valuable experience and insight in various areas of computer science. I have a particular interest in both frontend and backend development, as well as security, which I find to be an important and exciting field in software development.\nThroughout my studies, I have built solid experience working in teams, and I thrive when collaborating with others to find good solutions. I am motivated by new challenges and always look for opportunities for both personal and professional development. Currently, I am participating in developing my own app together with a fellow student, which gives me practical experience and deeper understanding of development processes.\nIn my free time, I enjoy knitting, pilates, and social activities with friends and family.",
       "section_name": {
         "about": "About Us",
         "projects": "Projects",
@@ -81,35 +81,31 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Kartverket",
+        "title": "Full Stack Developer",
+        "years": "09.2024 - 12.2024",
         "mainTech": [
-          "Angular 8/9/10"
+          ".NET Core"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "C#",
+          "CSS",
+          "HTML",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "Visual Basic 6.0",
+          "Dockerfile"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Digin",
+        "title": "Figma",
+        "years": "01.2025 - 06.2025",
+
         "mainTech": [
-          "Angular 7/8"
+          "Figma"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Figma"
         ]
       }
     ]
