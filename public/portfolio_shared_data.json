@@ -14,7 +14,7 @@
           "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "IMG_9932.jpg"
     },
     "skills": {
       "icons": [
@@ -29,8 +29,8 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
+          "name": "React",
+          "class": "devicon-react-original",
           "level": "80"
         },
         {
@@ -44,13 +44,13 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": ".NET",
+          "class": "devicon-dot-net-plain",
           "level": "75"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
+          "name": "Figma",
+          "class": "devicon-figma-plain",
           "level": "85"
         },
         {
