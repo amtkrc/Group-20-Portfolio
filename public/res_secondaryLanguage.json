@@ -81,35 +81,30 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Kartverket",
+        "title": "Full Stack Developer",
+        "years": "09.2024 - 12.2024",
         "mainTech": [
-          "Angular 8/9/10"
+          ".NET Core"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "C#",
+          "CSS",
+          "HTML",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "Visual Basic 6.0",
+          "Dockerfile"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "StudyBites",
+        "title": "Figma",
+        "years": "09.2023 - 12.2023",
         "mainTech": [
-          "Angular 7/8"
+          "Figma"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Figma"
         ]
       }
     ]
