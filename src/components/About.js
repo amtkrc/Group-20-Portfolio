@@ -3,11 +3,10 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var profilepic = process.env.PUBLIC_URL + "/images/" + this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
-      var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
     }
 
@@ -48,7 +47,7 @@ class About extends Component {
                 <img
                   height="400px"
                   width="400px"
-                  src="images/furkan.jpg"
+                  src={process.env.PUBLIC_URL + "/images/furkan.jpg"}
                   alt="Furkan Profile"
                   style={{ 
                     display: "block", 
@@ -155,7 +154,7 @@ class About extends Component {
                 <img
                   height="400px"
                   width="400px"
-                  src="images/omer.jpg"
+                  src={process.env.PUBLIC_URL + "/images/omer.jpg"}
                   alt="Ömer Profile"
                   style={{ 
                     display: "block", 
@@ -262,7 +261,7 @@ class About extends Component {
                 <img
                   height="400px"
                   width="400px"
-                  src="images/ahmet.jpg"
+                  src={process.env.PUBLIC_URL + "/images/ahmet.jpg"}
                   alt="Ahmet Profile"
                   style={{ 
                     display: "block", 
