@@ -1,4 +1,4 @@
-# Dependencies
+﻿# Dependencies
 node_modules/
 /.pnp
 .pnp.js
@@ -35,3 +35,12 @@ pids
 
 # OS generated files
 Thumbs.db
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Ayrıca istersek
+dist/
+.env
+

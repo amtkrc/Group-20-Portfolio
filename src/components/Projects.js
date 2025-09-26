@@ -1,70 +1,57 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
-class Projects extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      deps: {},
-      detailsModalShow: false,
-    };
-  }
+export default function Projects({ resumeProjects, resumeBasicInfo }) {
+    const [deps, setDeps] = useState({});
+    const [detailsModalShow, setDetailsModalShow] = useState(false);
 
-  render() {
-    let detailsModalShow = (data) => {
-      this.setState({ detailsModalShow: true, deps: data });
-    };
-
-    let detailsModalClose = () => this.setState({ detailsModalShow: false });
-    if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.map(function (projects) {
-        return (
-          <div
-            className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
+    const sectionName = resumeBasicInfo?.section_name?.projects;
+    const projects = (resumeProjects || []).map((p) => (
+        <div
+            className="col-sm-12 col-md-6 col-lg-6"
+            key={p.title}
             style={{ cursor: "pointer" }}
-          >
+        >
             <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
-                  <img
-                    src={projects.images[0]}
-                    alt="projectImages"
-                    height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-                  />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
+                <div className="foto" onClick={() => { setDetailsModalShow(true); setDeps(p); }}>
+                    <div>
+                        <img
+                            src={p.images[0]}
+                            alt="prosjektbilde"
+                            height="230"
+                            style={{
+                                marginBottom: 0,
+                                paddingBottom: 0,
+                                position: "relative",
+                                display: "block",
+                                margin: "0 auto",
+                                objectFit: "contain"
+                            }}
+                        />
+                        <span className="project-date">{p.startDate}</span>
+                        <br />
+                        <p className="project-title-settings mt-3">{p.title}</p>
+                    </div>
                 </div>
-              </div>
             </span>
-          </div>
-        );
-      });
-    }
+        </div>
+    ));
 
     return (
-      <section id="portfolio">
-        <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
-            <span>{sectionName}</span>
-          </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
-          </div>
-          <ProjectDetailsModal
-            show={this.state.detailsModalShow}
-            onHide={detailsModalClose}
-            data={this.state.deps}
-          />
-        </div>
-      </section>
+        <section id="portfolio">
+            <div className="col-md-12">
+                <h1 className="section-title" style={{ color: "black" }}>
+                    <span>{sectionName}</span>
+                </h1>
+                <div className="col-md-12 mx-auto">
+                    <div className="row mx-auto justify-content-center">{projects}</div>
+                </div>
+                <ProjectDetailsModal
+                    show={detailsModalShow}
+                    onHide={() => setDetailsModalShow(false)}
+                    data={deps}
+                />
+            </div>
+        </section>
     );
-  }
 }
-
-export default Projects;
