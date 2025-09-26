@@ -1,8 +1,8 @@
-# Gruppe 25 Portfolio
+# Gruppe 20 Portfolio
 
 ## IS310 Prosjektgjennomføring @ UIA
 
-Dette prosjektet er utviklet av Gruppe 25 som en del av IS310 Prosjektgjennomføring ved Universitetet i Agder. Vi er tredjeårsstudenter som har laget en moderne og kreativ porteføljeapplikasjon med fokus på kvalitet og samarbeid.
+Dette prosjektet er utviklet av Gruppe 20 som en del av IS310 Prosjektgjennomføring ved Universitetet i Agder. Vi er tredjeårsstudenter som har laget en moderne og kreativ porteføljeapplikasjon med fokus på kvalitet og samarbeid.
 
 ### 👥 Gruppemedlemmer
 - Ahmet
@@ -27,7 +27,7 @@ Vår gruppe utmerker seg med samarbeid, kreativitet og teknisk kompetanse. Vi ha
 
 ---
 
-> "Som Gruppe 25 streber vi etter det beste – både teknisk og som et lag!"
+> "Som Gruppe 20 streber vi etter det beste – både teknisk og som et lag!"
 
 ---
 
