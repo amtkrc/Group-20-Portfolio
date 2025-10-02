@@ -1,5 +1,14 @@
-@import '../src/scss/themes/theme-dark.scss';
-@import '../src/scss/themes/theme-light.scss';
+@import 'scss/themes/theme-dark.scss';
+@import 'scss/themes/theme-light.scss';
+
+/* Header overlay styles */
+body[data-theme="light"] .header-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+body[data-theme="dark"] .header-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
 html {
@@ -74,7 +83,6 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
