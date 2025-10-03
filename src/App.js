@@ -9,6 +9,7 @@ import Goals from "./components/Goals";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import PromoVideo from "./components/PromoVideo";
 
 function GoalsSection() {
     return (
@@ -111,6 +112,8 @@ class App extends Component {
                     sharedBasicInfo={sharedBasicInfo}
                 />
 
+                {/* Promo Video - new section placed above Om Oss (Goals) */}
+                <PromoVideo />
 
                 {/* Goals component - "Om Oss" bölümünden sonra */}
                 <Goals />
