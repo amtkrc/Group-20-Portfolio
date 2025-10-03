@@ -1,23 +1,19 @@
 import React, { Component } from "react";
+import { FaGem, FaStar, FaMagic } from "react-icons/fa";
 
 class Goals extends Component {
   render() {
     return (
       <section id="goals" style={{ 
-        padding: "80px 20px", 
-        backgroundColor: "#000000", // Doğru siyah kod
-        minHeight: "500px"
+        backgroundColor: "#1F1F1F", // Skills bölümü ile aynı renk
+        paddingBottom: "10%",
+        minHeight: "200px",
+        width: "100%",
+        overflow: "hidden"
       }}>
         <div className="container" style={{ maxWidth: "1200px", margin: "0 auto" }}>
           {/* Ana Başlık */}
-          <h2 style={{
-            fontSize: "3rem",
-            fontWeight: "700",
-            color: "#ffffff", // Başlığı beyaz yapalım
-            textAlign: "center",
-            marginBottom: "50px",
-            textShadow: "2px 2px 4px rgba(255,255,255,0.1)"
-          }}>
+          <h2 className="section-title" style={{ color: "#ffffff", marginBottom: "50px" }}>
             Våre Mål og Ambisjoner
           </h2>
           
@@ -30,27 +26,25 @@ class Goals extends Component {
           }}>
             {/* Mål 1 - Innovasjon */}
             <div style={{
-              background: "#ffffff",
+              background: "rgba(248, 245, 244, 0.05)", // Skills tiles ile aynı renk
               padding: "40px",
               borderRadius: "15px",
-              boxShadow: "0 10px 30px rgba(255,255,255,0.1)",
               textAlign: "center",
               border: "1px solid #333",
-              transition: "transform 0.3s ease, box-shadow 0.3s ease"
+              transition: "transform 0.3s ease"
             }}>
               <div style={{
                 fontSize: "3rem",
-                marginBottom: "20px"
-              }}>🎯</div>
-              <h3 style={{ 
-                color: "#2c3e50", 
                 marginBottom: "20px",
-                fontSize: "1.5rem"
-              }}>Innovasjon</h3>
+                color: "#3498db"
+              }}>
+                <FaGem />
+              </div>
+              <h3 style={{ color: "#ffffff", fontWeight: "bold" }}>Innovasjon</h3>
               <p style={{
-                color: "#6c757d",
-                lineHeight: "1.6",
-                fontSize: "1.1rem"
+                color: "rgba(255,255,255,0.8)",
+                lineHeight: "200%",
+                fontSize: "132%"
               }}>
                 Vi streber etter å utvikle innovative løsninger som setter nye standarder innen teknologi og brukeropplevelse.
               </p>
@@ -58,26 +52,24 @@ class Goals extends Component {
 
             {/* Mål 2 - Kvalitet */}
             <div style={{
-              background: "#ffffff",
+              background: "rgba(248, 245, 244, 0.05)", // Skills tiles ile aynı renk
               padding: "40px",
               borderRadius: "15px",
-              boxShadow: "0 10px 30px rgba(255,255,255,0.1)",
               textAlign: "center",
               border: "1px solid #333"
             }}>
               <div style={{
                 fontSize: "3rem",
-                marginBottom: "20px"
-              }}>🚀</div>
-              <h3 style={{ 
-                color: "#2c3e50", 
                 marginBottom: "20px",
-                fontSize: "1.5rem"
-              }}>Kvalitet</h3>
+                color: "#f39c12"
+              }}>
+                <FaStar />
+              </div>
+              <h3 style={{ color: "#ffffff", fontWeight: "bold" }}>Kvalitet</h3>
               <p style={{
-                color: "#6c757d",
-                lineHeight: "1.6",
-                fontSize: "1.1rem"
+                color: "rgba(255,255,255,0.8)",
+                lineHeight: "200%",
+                fontSize: "132%"
               }}>
                 Høy kvalitet i alle aspekter av vårt arbeid, fra kode til design og brukergrensesnitt.
               </p>
@@ -85,26 +77,24 @@ class Goals extends Component {
 
             {/* Mål 3 - Kreativitet */}
             <div style={{
-              background: "#ffffff",
+              background: "rgba(248, 245, 244, 0.05)", // Skills tiles ile aynı renk
               padding: "40px",
               borderRadius: "15px",
-              boxShadow: "0 10px 30px rgba(255,255,255,0.1)",
               textAlign: "center",
               border: "1px solid #333"
             }}>
               <div style={{
                 fontSize: "3rem",
-                marginBottom: "20px"
-              }}>💡</div>
-              <h3 style={{ 
-                color: "#2c3e50", 
                 marginBottom: "20px",
-                fontSize: "1.5rem"
-              }}>Kreativitet</h3>
+                color: "#9b59b6"
+              }}>
+                <FaMagic />
+              </div>
+              <h3 style={{ color: "#ffffff", fontWeight: "bold" }}>Kreativitet</h3>
               <p style={{
-                color: "#6c757d",
-                lineHeight: "1.6",
-                fontSize: "1.1rem"
+                color: "rgba(255,255,255,0.8)",
+                lineHeight: "200%",
+                fontSize: "132%"
               }}>
                 Kombinere teknisk ekspertise med kreativ tenkning for å skape unike og engasjerende løsninger.
               </p>
@@ -113,22 +103,22 @@ class Goals extends Component {
 
           {/* Ana Açıklama Metni */}
           <div style={{
-            background: "#ffffff",
+            background: "rgba(248, 245, 244, 0.05)", // Skills tiles ile aynı renk
             padding: "50px",
             borderRadius: "20px",
-            boxShadow: "0 15px 40px rgba(255,255,255,0.1)",
             textAlign: "center",
-            marginBottom: "0"
+            marginBottom: "0",
+            border: "1px solid #333"
           }}>
             <p style={{
-              fontSize: "1.3rem",
-              lineHeight: "1.8",
-              color: "#495057",
+              fontSize: "132%",
+              lineHeight: "200%",
+              color: "rgba(255,255,255,0.9)",
               maxWidth: "900px",
               margin: "0 auto",
               fontWeight: "300"
             }}>
-              Vi i <strong>Gruppe 20</strong> streber etter å levere innovative løsninger som kombinerer 
+              Vi i <strong style={{ color: "#ffffff" }}>Gruppe 20</strong> streber etter å levere innovative løsninger som kombinerer 
               teknisk dyktighet med kreativitet. Vårt mål er å skape brukervennlige og effektive 
               applikasjoner som inspirerer og gir verdi til våre brukere. Vi ønsker å være en 
               pålitelig partner som leverer resultater som overgår forventningene.

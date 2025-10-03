@@ -4,21 +4,16 @@ class Footer extends Component {
   render() {
     return (
       <footer style={{
-        background: "#000000",
+        background: "#1F1F1F",
         color: "white",
-        padding: "60px 20px 30px 20px",
-        marginTop: "50px",
+        paddingBottom: "5%",
         width: "100%",
-        minHeight: "300px"
+        minHeight: "200px",
+        overflow: "hidden"
       }}>
         {/* Kontakt Başlığı */}
         <div style={{ textAlign: "center", marginBottom: "40px" }}>
-          <h2 style={{
-            fontSize: "2.5rem",
-            fontWeight: "700",
-            color: "white",
-            margin: "0"
-          }}>
+          <h2 className="section-title" style={{ color: "white" }}>
             Kontakt Oss
           </h2>
         </div>
@@ -54,7 +49,7 @@ class Footer extends Component {
             }}>
               📧
             </div>
-            <h4 style={{ color: "white", marginBottom: "15px" }}>Email</h4>
+            <h4 style={{ color: "white" }}>Email</h4>
             <p style={{ color: "rgba(255,255,255,0.8)", margin: "0" }}>
               fmkara.25@gmail.com
             </p>
@@ -82,7 +77,7 @@ class Footer extends Component {
             }}>
               📞
             </div>
-            <h4 style={{ color: "white", marginBottom: "15px" }}>Telefon</h4>
+            <h4 style={{ color: "white" }}>Telefon</h4>
             <p style={{ color: "rgba(255,255,255,0.8)", margin: "0" }}>
               +47 973 24 025
             </p>
@@ -110,7 +105,7 @@ class Footer extends Component {
             }}>
               📍
             </div>
-            <h4 style={{ color: "white", marginBottom: "15px" }}>Lokasjon</h4>
+            <h4 style={{ color: "white" }}>Lokasjon</h4>
             <p style={{ color: "rgba(255,255,255,0.8)", margin: "0" }}>
               UiA Kristiansand
             </p>
@@ -141,7 +136,7 @@ class Footer extends Component {
             }}>
               🔗
             </div>
-            <h4 style={{ color: "white", marginBottom: "15px" }}>GitHub</h4>
+            <h4 style={{ color: "white" }}>GitHub</h4>
             <p style={{ color: "rgba(255,255,255,0.8)", margin: "0" }}>
               Group-20-Portfolio
             </p>
@@ -151,8 +146,8 @@ class Footer extends Component {
         {/* Copyright */}
         <div style={{
           textAlign: "center",
-          marginTop: "50px",
-          paddingTop: "30px",
+          marginTop: "30px",
+          paddingTop: "20px",
           borderTop: "1px solid rgba(255,255,255,0.2)"
         }}>
           <p style={{ 

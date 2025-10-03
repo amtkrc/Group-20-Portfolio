@@ -2,9 +2,9 @@
 
 function PromoVideo() {
     return (
-        <section id="promo-video" style={{ padding: "60px 20px", backgroundColor: "#f8f9fa" }}>
+        <section id="promo-video" style={{ backgroundColor: "#efe1bd", paddingBottom: "5%" }}>
             <div className="container" style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
-                <h2 style={{ fontSize: "2.5rem", fontWeight: 700, marginBottom: "20px", color: "#222" }}>
+                <h2 className="section-title" style={{ color: "#222" }}>
                     Promo Video
                 </h2>
                 <div style={{ maxWidth: "900px", margin: "0 auto" }}>

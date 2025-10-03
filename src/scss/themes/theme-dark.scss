@@ -50,7 +50,7 @@ body[data-theme="dark"] {
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background: #7f7f7f !important; /* Promo Video ile aynı renk */
       .section-title {
          color: white !important;
       }
@@ -59,6 +59,13 @@ body[data-theme="dark"] {
       }
       .project-title-settings {
          color: white;
+      }
+   }
+
+   #promo-video {
+      background: #7f7f7f !important; /* Om Oss ile aynı renk */
+      .section-title {
+         color: white !important;
       }
    }
 

@@ -1,6 +1,54 @@
 @import 'scss/themes/theme-dark.scss';
 @import 'scss/themes/theme-light.scss';
 
+/* Standardized heading styles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+h5 {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+h6 {
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.section-title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 40px;
+	letter-spacing: 2px;
+}
+
 /* Header overlay styles */
 body[data-theme="light"] .header-overlay {
   background-color: rgba(255, 255, 255, 0.5);
@@ -88,11 +136,11 @@ header {
 }
 
 header h1 {
-	font-size: 400%;
+	font-size: 4rem;
 	text-align: center;
-	font-weight: 600 !important;
+	font-weight: 700 !important;
 	color: #353239;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
@@ -122,7 +170,9 @@ header h1 {
 
 #about h1 {
 	padding-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;

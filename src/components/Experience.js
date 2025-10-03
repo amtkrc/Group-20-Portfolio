@@ -73,7 +73,7 @@ class Experience extends Component {
             </h1>
           </div>
         </div>
-        <div className="col-md-8 mx-auto">
+        <div className="col-md-8 mx-auto" style={{ paddingBottom: "50px" }}>
           <VerticalTimeline>
             {work}
             <VerticalTimelineElement

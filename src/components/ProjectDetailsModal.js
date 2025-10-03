@@ -77,7 +77,7 @@ class ProjectDetailsModal extends Component {
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
+            <h3 style={{ padding: "5px 5px 0 5px", color: "#2c3e50" }}>
               {title}
               {url ? (
                 <a

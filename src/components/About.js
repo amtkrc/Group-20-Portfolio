@@ -50,15 +50,7 @@ class About extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
-              <h1 style={{ 
-                color: "#2c3e50",
-                fontWeight: "700",
-                textAlign: "center",
-                marginBottom: "40px",
-                fontSize: "3rem",
-                letterSpacing: "2px",
-                textShadow: "2px 2px 4px rgba(0,0,0,0.1)"
-              }}>
+              <h1 className="section-title" style={{ color: "#2c3e50" }}>
                 <span>Om Oss</span>
               </h1>
             </div>
