@@ -35,8 +35,30 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
-        <div className="row aligner" style={{height: '100%'}}>
+      <header 
+        id="home" 
+        style={{ 
+          height: window.innerHeight, 
+          display: 'block',
+          backgroundImage: `url(${process.env.PUBLIC_URL}/images/IMG_9820.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center -350px',
+          backgroundRepeat: 'no-repeat',
+          position: 'relative'
+        }}
+      >
+        <div 
+          className="header-overlay"
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            zIndex: 1
+          }}
+        ></div>
+        <div className="row aligner" style={{height: '100%', position: 'relative', zIndex: 2}}>
           <div className="col-md-12">
             <div>
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
