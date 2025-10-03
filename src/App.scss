@@ -349,8 +349,8 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
-	padding-bottom: 5%;
+    background: #efe1bd !important; /* Açık bej arka plan - öncelik ile */
+    padding-bottom: 5%;
 }
 
 .portfolio-item {
